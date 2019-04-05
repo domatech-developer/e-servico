@@ -1,3 +1,3 @@
 <?php 
-echo " hello <strong>horld </strong>";
+echo "Olá mundo";
 ?>
