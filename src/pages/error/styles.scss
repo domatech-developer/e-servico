@@ -1,0 +1,29 @@
+.page-not-found {
+    max-width: 546px;
+    margin: 0 auto;
+    display: grid;
+    padding-top: 43px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .logo {
+        width: 200px;
+        margin-bottom: 20px;
+    }
+    h1 {
+        font: 72px 'GothamBlack',sans-serif;
+        color: #3f544e;
+        margin-bottom: 15px;
+    }
+    p {
+        font: 27px GothamBold,sans-serif;
+        color: #3f544e;
+        margin-bottom: 20px;
+    }
+    a {
+        font: 22px 'GothamBold',sans-serif;
+        color: #2abcf1;
+        margin-bottom: 90px;
+        text-decoration: underline;
+        width: 170px;
+    }
+}

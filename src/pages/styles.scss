@@ -1,0 +1,67 @@
+.page-home {
+    text-align: center;
+    background-color: #071516eb;
+    padding: 40px 30px;
+
+    .logo {
+        width: 200px;
+        margin: 0 auto;
+    }
+
+    /// Busca de persongens
+    .filter-search {
+        width: 300px;
+        padding: 20px 0;
+        text-align: center;
+        margin: 0 auto;
+        .busca {
+            width: 100%;
+            padding-right: 45px;
+        }
+
+        &:after {
+            content: "";
+            position: relative;
+            float: right;
+            width: 16px;
+            height: 16px;
+            margin: -27px 20px 0 0;
+            background-image: url("../assets/images/search.svg");
+            background-size: 16px 16px;
+            background-repeat: no-repeat;
+        }
+    }
+
+    /// lista de personagens
+    .character-list {
+        .number-characters {
+            font: 27px 'GothamBold', sans-serif;
+            letter-spacing: -0.54px;
+            color: #fff;
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        ul {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            flex-flow: row wrap;
+            // justify-content: center;
+            gap: 20px;
+            li {
+                .photo {
+                    height: 200px;
+                    background: #fff;
+                    overflow: hidden;
+                    border-radius: 7px;
+                    img {
+                        width: 100%;
+                    }
+                }
+                .name {
+                    color: #fff;
+                }
+            }
+
+        }
+    }
+}
